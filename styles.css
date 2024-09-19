@@ -1,13 +1,50 @@
 body {
-    font-family: Monospace, sans-serif;
+    font-family: 'Monospace', sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: #800000;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: #003366;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.projects {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.project a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 700px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.statement {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
 }
