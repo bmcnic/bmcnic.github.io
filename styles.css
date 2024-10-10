@@ -28,19 +28,13 @@ h2 {
     color: #003366;
 }
 
-.project {
-    background-color: #fff;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 8px;
-    text-align: left;
-    max-width: 700px;
-}
-
 .project img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgba(11, 146, 236, 0.651);
+    display: block;
+    margin: auto;
 }
 
 .statement {
